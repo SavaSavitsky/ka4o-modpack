@@ -1,0 +1,218 @@
+{
+	id: "415B44652FBD76A9"
+	group: "4D4A3B2D68D21D80"
+	order_index: 7
+	filename: "08_exploration"
+	icon: {
+		id: "naturescompass:naturescompass"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "42644724B81D42D5"
+			x: 0
+			y: 0
+			icon: {
+				id: "naturescompass:naturescompass"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "4BC082321DF595F0"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4F180EF2AC9CAB54"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4421AB2DFF431EC4"
+			x: 2
+			y: 0
+			icon: {
+				id: "waystones:waystone"
+				count: 1
+			}
+			dependencies: [
+				"42644724B81D42D5"
+			]
+			tasks: [
+				{
+					id: "49D1D8C76372634D"
+					type: "item"
+					item: {
+						id: "waystones:waystone"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "486022E1DB4B63C4"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "495146D2AB833C37"
+			x: 4
+			y: 0
+			icon: {
+				id: "minecraft:torch"
+				count: 1
+			}
+			dependencies: [
+				"4421AB2DFF431EC4"
+			]
+			tasks: [
+				{
+					id: "4CACF9A09B8B1536"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						count: 1
+					}
+					count: 32
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "42A7B4B524E79739"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "44ABBB9CD7E6415F"
+			x: 6
+			y: 0
+			icon: {
+				id: "minecraft:iron_sword"
+				count: 1
+			}
+			dependencies: [
+				"495146D2AB833C37"
+			]
+			tasks: [
+				{
+					id: "40AFFD351079891D"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 5
+				}
+			]
+			rewards: [
+				{
+					id: "4CE0FA3E8F76ACA7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "4F4730FDCE29A7DA"
+			x: 6
+			y: 2
+			icon: {
+				id: "minecraft:map"
+				count: 1
+			}
+			dependencies: [
+				"44ABBB9CD7E6415F"
+			]
+			tasks: [
+				{
+					id: "4636B9BD32FB6E5A"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+		{
+			id: "4092A0A0BAA85741"
+			x: 4
+			y: 2
+			icon: {
+				id: "minecraft:chest"
+				count: 1
+			}
+			dependencies: [
+				"4F4730FDCE29A7DA"
+			]
+			tasks: [
+				{
+					id: "4CEE056C3048BA19"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+		{
+			id: "49E5374113F35506"
+			x: 2
+			y: 2
+			icon: {
+				id: "minecraft:obsidian"
+				count: 1
+			}
+			dependencies: [
+				"4092A0A0BAA85741"
+			]
+			tasks: [
+				{
+					id: "418BBAC10858E04A"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+			]
+			rewards: [
+				{
+					id: "401D36F7EEE1AE76"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "4D5162EA21875D65"
+			x: 0
+			y: 2
+			icon: {
+				id: "minecraft:golden_apple"
+				count: 1
+			}
+			dependencies: [
+				"49E5374113F35506"
+			]
+			tasks: [
+				{
+					id: "4C6FE90CE95D77BA"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+	]
+}

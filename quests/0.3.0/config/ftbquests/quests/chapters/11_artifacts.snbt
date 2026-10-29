@@ -1,0 +1,173 @@
+{
+	id: "4B24F701A9EC5373"
+	group: "4D4A3B2D68D21D80"
+	order_index: 10
+	filename: "11_artifacts"
+	icon: {
+		id: "artifacts:crystal_heart"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "4B1A13F835FE60ED"
+			x: 0
+			y: 0
+			icon: {
+				id: "minecraft:chest"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "47D19BCE78A86578"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+		{
+			id: "456896D81BD380EC"
+			x: 2
+			y: 0
+			icon: {
+				id: "minecraft:iron_sword"
+				count: 1
+			}
+			dependencies: [
+				"4B1A13F835FE60ED"
+			]
+			tasks: [
+				{
+					id: "416A63D6BC6528BA"
+					type: "kill"
+					entity: "artifacts:mimic"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4D2D921432F85E93"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "45F3185B9B61DF8E"
+			x: 4
+			y: 0
+			icon: {
+				id: "artifacts:crystal_heart"
+				count: 1
+			}
+			dependencies: [
+				"4B1A13F835FE60ED"
+			]
+			tasks: [
+				{
+					id: "456067D663CD6625"
+					type: "item"
+					item: {
+						id: "artifacts:crystal_heart"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4C29BA2B387C0204"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4AFE032E90B422DA"
+			x: 6
+			y: 0
+			icon: {
+				id: "artifacts:digging_claws"
+				count: 1
+			}
+			dependencies: [
+				"4B1A13F835FE60ED"
+			]
+			tasks: [
+				{
+					id: "4014906662D49581"
+					type: "item"
+					item: {
+						id: "artifacts:digging_claws"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "43A06AB203B63179"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4619D0BF0F268382"
+			x: 6
+			y: 2
+			icon: {
+				id: "artifacts:power_glove"
+				count: 1
+			}
+			dependencies: [
+				"4B1A13F835FE60ED"
+			]
+			tasks: [
+				{
+					id: "4860AC41BC41D753"
+					type: "item"
+					item: {
+						id: "artifacts:power_glove"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4402D6E7A67BE76B"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4243DA5570D07B1E"
+			x: 4
+			y: 2
+			icon: {
+				id: "artifacts:crystal_heart"
+				count: 1
+			}
+			dependencies: [
+				"4B1A13F835FE60ED"
+			]
+			tasks: [
+				{
+					id: "4CADB4C4B783701D"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+	]
+}

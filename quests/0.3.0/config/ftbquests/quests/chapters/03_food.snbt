@@ -1,0 +1,268 @@
+{
+	id: "491710A1EABB08AE"
+	group: "48F77991D97F6751"
+	order_index: 2
+	filename: "03_food"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "4DBFAF4D1B6BD854"
+			x: 0
+			y: 0
+			icon: {
+				id: "farmersdelight:flint_knife"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "4EF3DDE87C1F59DB"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "49DD1024342327B5"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "45D3EFE7DE542A44"
+			x: 2
+			y: 0
+			icon: {
+				id: "farmersdelight:cutting_board"
+				count: 1
+			}
+			dependencies: [
+				"4DBFAF4D1B6BD854"
+			]
+			tasks: [
+				{
+					id: "4F4BEFC440E6E204"
+					type: "item"
+					item: {
+						id: "farmersdelight:cutting_board"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "453F1B2EA6FB74CE"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4B179CE31F95725C"
+			x: 4
+			y: 0
+			icon: {
+				id: "farmersdelight:straw"
+				count: 1
+			}
+			dependencies: [
+				"45D3EFE7DE542A44"
+			]
+			tasks: [
+				{
+					id: "4FF0ED4E6478EC3E"
+					type: "item"
+					item: {
+						id: "farmersdelight:straw"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "439D9FC3B85682F6"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4EA36450F7AC59E5"
+			x: 6
+			y: 0
+			icon: {
+				id: "farmersdelight:rice"
+				count: 1
+			}
+			dependencies: [
+				"4B179CE31F95725C"
+			]
+			tasks: [
+				{
+					id: "49F8EF219D6BF012"
+					type: "item"
+					item: {
+						id: "farmersdelight:rice"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "478FFF132116FBDB"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4B6135E1684A0F11"
+			x: 6
+			y: 2
+			icon: {
+				id: "farmersdelight:tomato"
+				count: 1
+			}
+			dependencies: [
+				"4EA36450F7AC59E5"
+			]
+			tasks: [
+				{
+					id: "4C6610995D818E4C"
+					type: "item"
+					item: {
+						id: "farmersdelight:tomato"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4512F1B4C9D3A238"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4CB6C49F742A69F8"
+			x: 4
+			y: 2
+			icon: {
+				id: "farmersdelight:cooking_pot"
+				count: 1
+			}
+			dependencies: [
+				"4B6135E1684A0F11"
+			]
+			tasks: [
+				{
+					id: "4E622EE4519AA662"
+					type: "item"
+					item: {
+						id: "farmersdelight:cooking_pot"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "42D85FE6C6F8DF52"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4A92EFA11507342C"
+			x: 2
+			y: 2
+			icon: {
+				id: "farmersdelight:vegetable_soup"
+				count: 1
+			}
+			dependencies: [
+				"4CB6C49F742A69F8"
+			]
+			tasks: [
+				{
+					id: "445DE92322706AE1"
+					type: "item"
+					item: {
+						id: "farmersdelight:vegetable_soup"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4C173FCC87F5C2ED"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4E04E48D02809FC1"
+			x: 0
+			y: 2
+			icon: {
+				id: "farmersdelight:roast_chicken_block"
+				count: 1
+			}
+			dependencies: [
+				"4A92EFA11507342C"
+			]
+			tasks: [
+				{
+					id: "49D59D9E8AF16568"
+					type: "item"
+					item: {
+						id: "farmersdelight:roast_chicken_block"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "44386846FADCA25F"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+	]
+}

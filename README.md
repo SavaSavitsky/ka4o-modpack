@@ -19,6 +19,13 @@ Tom's Simple Storage, JEI, Sophisticated Backpacks, Waystones, Jade,
 Xaero's Minimap, Xaero's World Map, Farmer's Delight, Lootr,
 Iron's Spells 'n Spellbooks та Applied Energistics 2, а також потрібні бібліотеки.
 
+Оновлення **0.3.0** додає **The Twilight Forest**, **Artifacts**, **Nature's Compass**
+та **FTB Quests** із власною українською книгою: **110 квестів, 11 розділів**.
+Квести охоплюють великі моди збірки, зберігання, кухню, дослідження й босів.
+Відкрити книгу можна кнопкою FTB Quests в інвентарі або призначеною клавішею
+«Відкрити квести» в налаштуваннях керування. Назви, описи й підказки українські;
+предмети для завдань не витрачаються. Частина вільних творчих завдань має ручне підтвердження.
+
 Точні версії, авторські сторінки, ліцензії та адреси завантаження наведено
 у `ka4o-adventures.json`. JAR-файли модів завантажуються з Modrinth;
 цей репозиторій їх не зберігає.
@@ -30,4 +37,3 @@ Iron's Spells 'n Spellbooks та Applied Energistics 2, а також потрі
 
 Minecraft є торговою маркою Mojang Synergies AB. Цей проєкт не пов'язаний
 із Mojang або Microsoft. Для гри потрібне право на використання Minecraft.
-

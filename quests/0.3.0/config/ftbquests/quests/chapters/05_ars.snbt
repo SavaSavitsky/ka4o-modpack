@@ -1,0 +1,391 @@
+{
+	id: "437F8B205C5B832E"
+	group: "45E9682208381DA9"
+	order_index: 4
+	filename: "05_ars"
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "4B2FB283A00A7C07"
+			x: 0
+			y: 0
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "42B26385574A2573"
+					type: "item"
+					item: {
+						id: "ars_nouveau:worn_notebook"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "42BD78FCED0218CE"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "431B9E99226305C8"
+			x: 2
+			y: 0
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"4B2FB283A00A7C07"
+			]
+			tasks: [
+				{
+					id: "46046E6D4455D82A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_spell_book"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "42B2051B66BAE382"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4C35D1012C08CB27"
+			x: 4
+			y: 0
+			icon: {
+				id: "ars_nouveau:imbuement_chamber"
+				count: 1
+			}
+			dependencies: [
+				"431B9E99226305C8"
+			]
+			tasks: [
+				{
+					id: "4BF34454B508A4A1"
+					type: "item"
+					item: {
+						id: "ars_nouveau:imbuement_chamber"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "41654FF6EF9C6467"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4ADA1C502384AD15"
+			x: 6
+			y: 0
+			icon: {
+				id: "ars_nouveau:source_gem"
+				count: 1
+			}
+			dependencies: [
+				"4C35D1012C08CB27"
+			]
+			tasks: [
+				{
+					id: "45D0F3A46BBE3DA2"
+					type: "item"
+					item: {
+						id: "ars_nouveau:source_gem"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4C77588BA8D602AB"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "48BE4F578A4BF0C3"
+			x: 6
+			y: 2
+			icon: {
+				id: "ars_nouveau:scribes_table"
+				count: 1
+			}
+			dependencies: [
+				"4ADA1C502384AD15"
+			]
+			tasks: [
+				{
+					id: "4F82F7717EABA984"
+					type: "item"
+					item: {
+						id: "ars_nouveau:scribes_table"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "41100C48E6DB0596"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "484B6D2DF2E68141"
+			x: 4
+			y: 2
+			icon: {
+				id: "ars_nouveau:source_jar"
+				count: 1
+			}
+			dependencies: [
+				"48BE4F578A4BF0C3"
+			]
+			tasks: [
+				{
+					id: "47D4987CDD1FB264"
+					type: "item"
+					item: {
+						id: "ars_nouveau:source_jar"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4D86B710E751197C"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4479585D313A86D1"
+			x: 2
+			y: 2
+			icon: {
+				id: "ars_nouveau:agronomic_sourcelink"
+				count: 1
+			}
+			dependencies: [
+				"484B6D2DF2E68141"
+			]
+			tasks: [
+				{
+					id: "47109C6EC79754DB"
+					type: "item"
+					item: {
+						id: "ars_nouveau:agronomic_sourcelink"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "44EA24D2DE70CB98"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "450CF873ABA1868A"
+			x: 0
+			y: 2
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+				count: 1
+			}
+			dependencies: [
+				"4479585D313A86D1"
+			]
+			tasks: [
+				{
+					id: "41B553E3A0E58269"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanting_apparatus"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4DF719DE8E0FC11A"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "40ED70468C33AFC2"
+			x: 0
+			y: 4
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+				count: 1
+			}
+			dependencies: [
+				"450CF873ABA1868A"
+			]
+			tasks: [
+				{
+					id: "4DDFF0D4AF90422D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:starbuncle_charm"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4E2E8C81A7516F2A"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "43F3DA143102A53B"
+			x: 2
+			y: 4
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"40ED70468C33AFC2"
+			]
+			tasks: [
+				{
+					id: "456FBBD9DDD800DB"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_spell_book"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4757682857377972"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4FDD6FF6D0868268"
+			x: 4
+			y: 4
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"43F3DA143102A53B"
+			]
+			tasks: [
+				{
+					id: "4BB81B8DE9AE5E14"
+					type: "kill"
+					entity: "ars_nouveau:wilden_boss"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4509FF774E42F82B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "4EC2DA11CFCF1AE2"
+			x: 6
+			y: 4
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"4FDD6FF6D0868268"
+			]
+			tasks: [
+				{
+					id: "432598C68F8B3564"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_spell_book"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "464453727D886F76"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+	]
+}

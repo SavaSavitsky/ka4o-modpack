@@ -1,0 +1,184 @@
+{
+	id: "4108A3E56A8CBDD6"
+	group: "48F77991D97F6751"
+	order_index: 0
+	filename: "01_welcome"
+	icon: {
+		id: "minecraft:book"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "4ED707D930A8D649"
+			x: 0
+			y: 0
+			icon: {
+				id: "minecraft:book"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "4933710E8CC55137"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+		{
+			id: "42157C325C758FCA"
+			x: 2
+			y: 0
+			icon: {
+				id: "minecraft:book"
+				count: 1
+			}
+			dependencies: [
+				"4ED707D930A8D649"
+			]
+			tasks: [
+				{
+					id: "4E1410128651F703"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+		{
+			id: "48E5176A3814FBA5"
+			x: 4
+			y: 0
+			icon: {
+				id: "minecraft:iron_ingot"
+				count: 1
+			}
+			dependencies: [
+				"42157C325C758FCA"
+			]
+			tasks: [
+				{
+					id: "4B7656C61C859CBA"
+					type: "item"
+					item: {
+						id: "minecraft:iron_ingot"
+						count: 1
+					}
+					count: 16
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "474F5C628F7AEC3A"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4C47D7958C421970"
+			x: 6
+			y: 0
+			icon: {
+				id: "minecraft:shield"
+				count: 1
+			}
+			dependencies: [
+				"48E5176A3814FBA5"
+			]
+			tasks: [
+				{
+					id: "4293937A5DA88493"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "45C7F9846FB91CFE"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "49E52CFC9C8AD8BE"
+			x: 6
+			y: 2
+			icon: {
+				id: "minecraft:red_bed"
+				count: 1
+			}
+			dependencies: [
+				"4C47D7958C421970"
+			]
+			tasks: [
+				{
+					id: "4A762ECFDCB744C3"
+					type: "item"
+					item: {
+						id: "minecraft:red_bed"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "466BBE84147DBFA2"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4C428E2C1545F5FD"
+			x: 4
+			y: 2
+			icon: {
+				id: "minecraft:book"
+				count: 1
+			}
+			dependencies: [
+				"49E52CFC9C8AD8BE"
+			]
+			tasks: [
+				{
+					id: "4D8572E8D0ACCED0"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+		{
+			id: "448C291F4F4033D0"
+			x: 2
+			y: 2
+			icon: {
+				id: "minecraft:book"
+				count: 1
+			}
+			dependencies: [
+				"4C428E2C1545F5FD"
+			]
+			tasks: [
+				{
+					id: "44462A1BA0817EBA"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+	]
+}

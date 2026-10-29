@@ -1,0 +1,319 @@
+{
+	id: "4227427BADCB5429"
+	group: "45E9682208381DA9"
+	order_index: 6
+	filename: "07_ironmagic"
+	icon: {
+		id: "irons_spellbooks:iron_spell_book"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "44CDE866C5288F2A"
+			x: 0
+			y: 0
+			icon: {
+				id: "irons_spellbooks:common_ink"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "42710DB49384A52C"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:common_ink"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4D5361265CC01296"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "42CD8F33F23AD5C9"
+			x: 2
+			y: 0
+			icon: {
+				id: "irons_spellbooks:iron_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"44CDE866C5288F2A"
+			]
+			tasks: [
+				{
+					id: "421E1F02BC21F765"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:iron_spell_book"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "44E8ECBCC5D25901"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "45C9228EB983AD1E"
+			x: 4
+			y: 0
+			icon: {
+				id: "irons_spellbooks:inscription_table"
+				count: 1
+			}
+			dependencies: [
+				"42CD8F33F23AD5C9"
+			]
+			tasks: [
+				{
+					id: "4DB24094A1050E76"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:inscription_table"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4120FC67C50442C0"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4F2358ED24B013B8"
+			x: 6
+			y: 0
+			icon: {
+				id: "irons_spellbooks:scroll_forge"
+				count: 1
+			}
+			dependencies: [
+				"45C9228EB983AD1E"
+			]
+			tasks: [
+				{
+					id: "49C34F66A31E0E32"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:scroll_forge"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4FFC403216CF2E83"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "40BCE47CCF717B03"
+			x: 6
+			y: 2
+			icon: {
+				id: "irons_spellbooks:alchemist_cauldron"
+				count: 1
+			}
+			dependencies: [
+				"4F2358ED24B013B8"
+			]
+			tasks: [
+				{
+					id: "40ECFC55227D667F"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:alchemist_cauldron"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "43094F860EF5FF8C"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "47C8A42D0B2A242D"
+			x: 4
+			y: 2
+			icon: {
+				id: "irons_spellbooks:rare_ink"
+				count: 1
+			}
+			dependencies: [
+				"40BCE47CCF717B03"
+			]
+			tasks: [
+				{
+					id: "42353DFBDE07614F"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:rare_ink"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "42B7DFF688A7305C"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "469CC36D7674187A"
+			x: 2
+			y: 2
+			icon: {
+				id: "irons_spellbooks:arcane_anvil"
+				count: 1
+			}
+			dependencies: [
+				"47C8A42D0B2A242D"
+			]
+			tasks: [
+				{
+					id: "404C14069EA04CC7"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:arcane_anvil"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "456CF82FC0A34DE0"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "42162755BC0311B2"
+			x: 0
+			y: 2
+			icon: {
+				id: "irons_spellbooks:diamond_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"469CC36D7674187A"
+			]
+			tasks: [
+				{
+					id: "4D35A33C6586AAE3"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:diamond_spell_book"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "47B0FF42EFA94839"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "463EF3CE142B2D29"
+			x: 0
+			y: 4
+			icon: {
+				id: "irons_spellbooks:legendary_ink"
+				count: 1
+			}
+			dependencies: [
+				"42162755BC0311B2"
+			]
+			tasks: [
+				{
+					id: "4584880C162BDD78"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:legendary_ink"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "499451AC72C54D41"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "41F2658303CA2141"
+			x: 2
+			y: 4
+			icon: {
+				id: "irons_spellbooks:diamond_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"463EF3CE142B2D29"
+			]
+			tasks: [
+				{
+					id: "4F6A9C93907CFE74"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+	]
+}

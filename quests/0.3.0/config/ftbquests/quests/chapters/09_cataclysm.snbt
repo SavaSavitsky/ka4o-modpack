@@ -1,0 +1,247 @@
+{
+	id: "493258D4D3898DE5"
+	group: "4D4A3B2D68D21D80"
+	order_index: 8
+	filename: "09_cataclysm"
+	icon: {
+		id: "cataclysm:monstrous_eye"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "46935DB1A2868E2D"
+			x: 0
+			y: 0
+			icon: {
+				id: "minecraft:diamond_chestplate"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "4B75D3CD53A9ACAC"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+		{
+			id: "476423BCAD555AF5"
+			x: 2
+			y: 0
+			icon: {
+				id: "cataclysm:void_core"
+				count: 1
+			}
+			dependencies: [
+				"46935DB1A2868E2D"
+			]
+			tasks: [
+				{
+					id: "4DB3BE4709F27272"
+					type: "kill"
+					entity: "cataclysm:ender_golem"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "447C8E3CB3243C7F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "4BFAD3072A5021D8"
+			x: 4
+			y: 0
+			icon: {
+				id: "cataclysm:void_core"
+				count: 1
+			}
+			dependencies: [
+				"46935DB1A2868E2D"
+			]
+			tasks: [
+				{
+					id: "49E62B28E8309F30"
+					type: "kill"
+					entity: "cataclysm:ender_guardian"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "41DB5F16FC5FF9A3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "441663CFA2984465"
+			x: 6
+			y: 0
+			icon: {
+				id: "cataclysm:monstrous_horn"
+				count: 1
+			}
+			dependencies: [
+				"46935DB1A2868E2D"
+			]
+			tasks: [
+				{
+					id: "49D51BD9F999CC6A"
+					type: "kill"
+					entity: "cataclysm:netherite_monstrosity"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "48708C23A02F983C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "427FCDC6C921F7A3"
+			x: 6
+			y: 2
+			icon: {
+				id: "minecraft:nether_star"
+				count: 1
+			}
+			dependencies: [
+				"46935DB1A2868E2D"
+			]
+			tasks: [
+				{
+					id: "4BA75E0F6BEBA8D3"
+					type: "kill"
+					entity: "cataclysm:the_harbinger"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4707DC9B4395F121"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "4D3754C90891E56C"
+			x: 4
+			y: 2
+			icon: {
+				id: "minecraft:heart_of_the_sea"
+				count: 1
+			}
+			dependencies: [
+				"46935DB1A2868E2D"
+			]
+			tasks: [
+				{
+					id: "452EB64F66835529"
+					type: "kill"
+					entity: "cataclysm:the_leviathan"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4D64B375233869C1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "4DBA13014C0303BE"
+			x: 2
+			y: 2
+			icon: {
+				id: "minecraft:golden_apple"
+				count: 1
+			}
+			dependencies: [
+				"46935DB1A2868E2D"
+			]
+			tasks: [
+				{
+					id: "405F08BC98C8779E"
+					type: "kill"
+					entity: "cataclysm:ancient_remnant"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "477DF35CAD686B0D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "46DD641E1FA3B164"
+			x: 0
+			y: 2
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+				count: 1
+			}
+			dependencies: [
+				"46935DB1A2868E2D"
+			]
+			tasks: [
+				{
+					id: "4AB44909B0D2B8C7"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "480B342AD6411C05"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "438AD49F1B2BC5B9"
+			x: 0
+			y: 4
+			icon: {
+				id: "minecraft:netherite_sword"
+				count: 1
+			}
+			dependencies: [
+				"46935DB1A2868E2D"
+			]
+			tasks: [
+				{
+					id: "465E789DD57263B5"
+					type: "kill"
+					entity: "cataclysm:maledictus"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "44ECCACDAAE330D2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

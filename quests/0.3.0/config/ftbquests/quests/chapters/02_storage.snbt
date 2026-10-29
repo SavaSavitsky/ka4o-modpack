@@ -1,0 +1,300 @@
+{
+	id: "4C6715832573DCD6"
+	group: "48F77991D97F6751"
+	order_index: 1
+	filename: "02_storage"
+	icon: {
+		id: "toms_storage:storage_terminal"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "4984F7D2404F5380"
+			x: 0
+			y: 0
+			icon: {
+				id: "toms_storage:inventory_connector"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "4C4D916E28E2120D"
+					type: "item"
+					item: {
+						id: "toms_storage:inventory_connector"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "494191CC84FE9D58"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4CEAB4D40155E5E6"
+			x: 2
+			y: 0
+			icon: {
+				id: "toms_storage:storage_terminal"
+				count: 1
+			}
+			dependencies: [
+				"4984F7D2404F5380"
+			]
+			tasks: [
+				{
+					id: "44EE323549718C3B"
+					type: "item"
+					item: {
+						id: "toms_storage:storage_terminal"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4C2F82131F69CE96"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4141703751D794A7"
+			x: 4
+			y: 0
+			icon: {
+				id: "toms_storage:inventory_cable"
+				count: 1
+			}
+			dependencies: [
+				"4CEAB4D40155E5E6"
+			]
+			tasks: [
+				{
+					id: "4B0170BEB5B432DA"
+					type: "item"
+					item: {
+						id: "toms_storage:inventory_cable"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "453AD5F21F13BB68"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "44E3BFB90177F785"
+			x: 6
+			y: 0
+			icon: {
+				id: "toms_storage:crafting_terminal"
+				count: 1
+			}
+			dependencies: [
+				"4141703751D794A7"
+			]
+			tasks: [
+				{
+					id: "4207C3744B5151AE"
+					type: "item"
+					item: {
+						id: "toms_storage:crafting_terminal"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "495FEC40D893AABD"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4B9BDF743AE25362"
+			x: 6
+			y: 2
+			icon: {
+				id: "toms_storage:wireless_terminal"
+				count: 1
+			}
+			dependencies: [
+				"44E3BFB90177F785"
+			]
+			tasks: [
+				{
+					id: "4862157AB188E89D"
+					type: "item"
+					item: {
+						id: "toms_storage:wireless_terminal"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "499BAB963FFB6B87"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "42ED10E998C24DDD"
+			x: 4
+			y: 2
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				count: 1
+			}
+			dependencies: [
+				"4B9BDF743AE25362"
+			]
+			tasks: [
+				{
+					id: "4419B30AFCACDF31"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:backpack"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "498F41430122C48C"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4E945441C4FAD83B"
+			x: 2
+			y: 2
+			icon: {
+				id: "sophisticatedbackpacks:iron_backpack"
+				count: 1
+			}
+			dependencies: [
+				"42ED10E998C24DDD"
+			]
+			tasks: [
+				{
+					id: "4DA9F30D257906B3"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:iron_backpack"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "45FB42990021B20A"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "482A6BAAC7AB0139"
+			x: 0
+			y: 2
+			icon: {
+				id: "sophisticatedbackpacks:pickup_upgrade"
+				count: 1
+			}
+			dependencies: [
+				"4E945441C4FAD83B"
+			]
+			tasks: [
+				{
+					id: "4EB638FAB87C3710"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:pickup_upgrade"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "41ACE61AB66346D3"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "403C7A1152625262"
+			x: 0
+			y: 4
+			icon: {
+				id: "sophisticatedbackpacks:gold_backpack"
+				count: 1
+			}
+			dependencies: [
+				"482A6BAAC7AB0139"
+			]
+			tasks: [
+				{
+					id: "4599C72F099698D9"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:gold_backpack"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4D2EEB1094BDC105"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+	]
+}

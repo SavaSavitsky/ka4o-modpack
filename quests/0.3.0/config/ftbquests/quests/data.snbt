@@ -1,0 +1,15 @@
+{
+	version: 13
+	default_reward_team: false
+	default_consume_items: false
+	default_autoclaim_rewards: "disabled"
+	default_quest_shape: "circle"
+	progression_mode: "linear"
+	detection_delay: 20
+	show_lock_icons: true
+	fallback_locale: "uk_ua"
+	verify_on_load: true
+	drop_loot_crates: false
+	drop_book_on_death: false
+	grid_scale: 0.5
+}

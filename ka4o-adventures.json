@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "id": "ka4o-adventures",
   "name": "Ka4o Adventures — тестова збірка",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "server": "stamina-cassettes.tun.ply.gg",
   "minecraft": "1.21.1",
   "loader": {
@@ -436,7 +436,258 @@
       "dependencies": [],
       "license": "LicenseRef-All-Rights-Reserved",
       "source": "https://modrinth.com/mod/xaeros-world-map"
+    },
+    {
+      "id": "ftb-library",
+      "name": "FTB Library",
+      "version": "2101.1.39",
+      "dependencies": [
+        "architectury-api"
+      ],
+      "fileName": "ftb-library-neoforge-2101.1.39.jar",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.39/ftb-library-neoforge-2101.1.39.jar",
+      "sha1": "ff852d99ade215fb892369687d0634ecf0bca6ae",
+      "sha512": "e28a5c032395b96ce696800ca7689315074110e572186d8ba08bdf326e0ff43f6fcce942c35a3fe60637dc2bf2077f04b3e222892e60016fe545339dcc7529aa",
+      "size": 1477833,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "license": "All Rights Reserved",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-library"
+    },
+    {
+      "id": "architectury-api",
+      "name": "Architectury API",
+      "version": "13.0.11+neoforge",
+      "fileName": "architectury-13.0.11-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar",
+      "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+      "sha512": "d9f7c3bb8162577dfb461ffdf04bd6a3563c7586934a0e2a744c14421beffb8286f0d88d4c758317003f20f99fe8072a39b9d675af061e036970d36db36027f0",
+      "size": 584734,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/architectury-api"
+    },
+    {
+      "id": "ftb-teams",
+      "name": "FTB Teams",
+      "version": "2101.1.11",
+      "fileName": "ftb-teams-neoforge-2101.1.11.jar",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/2101.1.11/ftb-teams-neoforge-2101.1.11.jar",
+      "sha1": "62b65f752d0326edd13244e58d5f2aec035da4e9",
+      "sha512": "21c9350c6c7ec54ee54b74f2bdc0a44f91005bedda3caf27d673b2f2bcad1dbef5aec970201ec8e959db2a1743ceb2e24ae99a9e36744dce740a0ab1dad01c52",
+      "size": 308236,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "ftb-library",
+        "architectury-api"
+      ],
+      "license": "All Rights Reserved",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams"
+    },
+    {
+      "id": "ftb-quests",
+      "name": "FTB Quests",
+      "version": "2101.1.37",
+      "fileName": "ftb-quests-neoforge-2101.1.37.jar",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-quests-neoforge/2101.1.37/ftb-quests-neoforge-2101.1.37.jar",
+      "sha1": "770938e5907cc91be2f89ac00aea2e87b51e1c87",
+      "sha512": "d89b053bc87d0272d770dc24f1be3497910097205136df60c0251529151c4faf400718abae0ed429a596e43877e3d033928b0a227a30759660067d9e276fc5f8",
+      "size": 1635351,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "ftb-library",
+        "ftb-teams",
+        "architectury-api"
+      ],
+      "license": "All Rights Reserved",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests"
+    },
+    {
+      "id": "artifacts",
+      "name": "Artifacts",
+      "version": "13.2.5",
+      "fileName": "artifacts-neoforge-13.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lMfuK0o7/artifacts-neoforge-13.2.5.jar",
+      "sha1": "fb6cd3be2d034dde369ffd7558c95c6daa44189e",
+      "sha512": "9079bc8a22c237881b22b38027bbab2a8a2e685a1f49c1e1e0e5796f3e0a5509a130d73753c7b2980f12e4f00845f8e8c967ee969f1eadcd52139c2780afe09d",
+      "size": 1086922,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "curios"
+      ],
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/artifacts"
+    },
+    {
+      "id": "natures-compass",
+      "name": "Nature's Compass",
+      "version": "1.21.1-3.4.0-neoforge",
+      "fileName": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/nFniEtJV/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "sha1": "e19721873bebc4dbc1674bb101af39d0ea406b95",
+      "sha512": "5314b536bcb9a594a9cf2bbd46c82468d17e1559bd6c00da9d91e96c0814f50416799a011705f0d184bd731dac3f03dec009c76fea3d02b3556a6013f9649014",
+      "size": 224657,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "https://modrinth.com/mod/natures-compass"
+    },
+    {
+      "id": "twilightforest",
+      "name": "The Twilight Forest",
+      "version": "4.8.3345",
+      "fileName": "twilightforest-1.21.1-4.8.3345-universal.jar",
+      "url": "https://edge.forgecdn.net/files/7797/302/twilightforest-1.21.1-4.8.3345-universal.jar",
+      "sha1": "9cfd4154928433e2f1f6cfc3deb48c284debb580",
+      "sha512": "371dd7079b174091363327df70ed64c84e8e36fcab49b4c33bbcbe39650f6bccc12d3e14818cdfbbaa519a999f64a0a92c03ec981f55a315b044dc7cb5c27ef4",
+      "size": 27154121,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "Custom License",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/files/7797302"
     }
   ],
-  "files": []
+  "files": [
+    {
+      "path": "config/ftbquests/quests/data.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/data.snbt",
+      "sha1": "69e47c6ba61918df828aff6a3828ef8013a155ad",
+      "sha512": "28339ec01ae8237b792bf163a5077259e18c2280a3f73d3e7392654ffcbc0bfa17e41d25e95fa4b991e91bf9137dfc4171ad50a2da23a2230fdd972206950c05",
+      "size": 334,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapter_groups.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapter_groups.snbt",
+      "sha1": "fc3317d0918ac5d5f33790a7e0cfa47b20888a1a",
+      "sha512": "2c96cea49497ad44ac306e4396264638fd2c420de9d0ff4430d857582cbe6b3ef6de81481f260db20b5609df2018a9498f74940a96cd62272a1569bcf754b958",
+      "size": 128,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/01_welcome.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/01_welcome.snbt",
+      "sha1": "c3e7856ac32215436dec4b53b9e437b7636dc795",
+      "sha512": "0f0ad04b2389db631ac3aab314194f95178d8ed224afb661849b8cfb15bdde949bef17897231b8a83db0af3aee4e16cffd4f5b34f0c91d0ce20b594e368d303b",
+      "size": 2526,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/02_storage.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/02_storage.snbt",
+      "sha1": "da9a3dc520660ffeb6dd29024f20496ae1841bd7",
+      "sha512": "fc72a635065237585d3f1d1e2eb0825574646716ce9038755b291fb7ac6e245edaea546ec70d79c1a4f11a74dc70cf77e21f6eb88c9c3e752df64b88715286f6",
+      "size": 4536,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/03_food.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/03_food.snbt",
+      "sha1": "7a23270d87eeef08e4887ce8a68e1620cb5c61ca",
+      "sha512": "6df883959c6abaa02b85077be8a935bfa157d463edbde5d95a30c796dd3ce83447912c8b5d395beefe16d27d632db2a51674f7acf7101aaa0e288d90bd5ab181",
+      "size": 3940,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/04_create.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/04_create.snbt",
+      "sha1": "27ee7d7bb9f35f1f23953f18875217d204e07dc3",
+      "sha512": "8e64761ff0edec8bfadb6723f138f7ce08f0b4f78d29a37231fd351495abeeb05e9fa06b70deee724ce64f72a3f50c81c09ae07f2acd67ffb78c6702d6916693",
+      "size": 6806,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/05_ars.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/05_ars.snbt",
+      "sha1": "ef811aec57b60cb4ffc543b91664a5334cadcda4",
+      "sha512": "99d9e9a3b900c52dd442c8d0cc4375ae01e72b8bc1bf3931b31702d2176afef800abef7c2ea62a452000487d3fd978c38aa95b32687cd3f0376774f51a1c79b4",
+      "size": 5792,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/06_ae2.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/06_ae2.snbt",
+      "sha1": "7f3fd68bb536d5470340d4a6083d05416efecf22",
+      "sha512": "34a66ff7beaa97b0d41ae9e57b578355a2b21458868139d7f14a28152da767ae96c8c90953a21594c1b53c206c874a57c2daf23e6cad2a5e9b85e967bd1816a7",
+      "size": 6380,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/07_ironmagic.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/07_ironmagic.snbt",
+      "sha1": "553dc2ce838adeb40a700b2092555f0e6d2a9875",
+      "sha512": "a351bd14e350dfd91696bc61ce1e70f1a2df75453416a985c8f2e06d3c9feeed1714685309cd814069ce82ee808e3e21319bc40b55e37f9912672eb9ebcc6509",
+      "size": 4782,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/08_exploration.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/08_exploration.snbt",
+      "sha1": "b3df2acbca9898291fb27faa646c6a7cbd702bf2",
+      "sha512": "3954c2dd04adbc0b9db29d9738bd890c4de4be3443500cae2cf4ac3e758968146688723e032eb67b32c24ee3a1d1c5a86914768ab21025f67395aa0e65a451b1",
+      "size": 3052,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/09_cataclysm.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/09_cataclysm.snbt",
+      "sha1": "a259b96d88e2230d2a5a3fb8fd001b576ea6ed61",
+      "sha512": "1129e5399d216a14ee45189eadce94d6e58de1b81068ac281b8f2347cc7739845e8ad23c23a5b67beb3c60a02e7a0efcc17eb28467389c7e8246d9a16591a276",
+      "size": 3454,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/10_twilight.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/10_twilight.snbt",
+      "sha1": "1ffb72f8e2d1275b0896baffd25a64a63b508863",
+      "sha512": "7c9f80f02bf8ee63472cca970a7aa87035986fa2336c09b8dc0d084250238755b92ce510a6eed201dec7b1aab5f8156f343f762eabcd5024984a02fae8620c0e",
+      "size": 4854,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/11_artifacts.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/chapters/11_artifacts.snbt",
+      "sha1": "7ed69bd091299577a16a66574b0f88653fe98afc",
+      "sha512": "76afda43f16889e1b82c5781cac1e6c5b2a8a6993cd16891c4789ea5adb5b7e046861191bc928ea9888be67bde0a0c986bb0461400611d1223f99d3a8e85c7a9",
+      "size": 2448,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/uk_ua.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/lang/uk_ua.snbt",
+      "sha1": "3acb67bddc4f45fc402f70e25c5d400e34baa833",
+      "sha512": "1b46eb24c3ce151247112725562db0eae9f7f1d87fe277cac135dca5658613f58e89d7c220c0ca68f08cccd5442c9224abbec7ad80c995afe092379d72d2293a",
+      "size": 55349,
+      "overwrite": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/en_us.snbt",
+      "url": "https://raw.githubusercontent.com/SavaSavitsky/ka4o-modpack/main/quests/0.3.0/config/ftbquests/quests/lang/en_us.snbt",
+      "sha1": "3acb67bddc4f45fc402f70e25c5d400e34baa833",
+      "sha512": "1b46eb24c3ce151247112725562db0eae9f7f1d87fe277cac135dca5658613f58e89d7c220c0ca68f08cccd5442c9224abbec7ad80c995afe092379d72d2293a",
+      "size": 55349,
+      "overwrite": "always"
+    }
+  ]
 }

@@ -1,0 +1,447 @@
+{
+	id: "4EC08528CBED52CF"
+	group: "45E9682208381DA9"
+	order_index: 5
+	filename: "06_ae2"
+	icon: {
+		id: "ae2:controller"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "4AA33759FFDC587B"
+			x: 0
+			y: 0
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "40D203B7F0002DD4"
+					type: "item"
+					item: {
+						id: "ae2:certus_quartz_crystal"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "47D65FD0C8634098"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4042D6A0496D1822"
+			x: 2
+			y: 0
+			icon: {
+				id: "ae2:logic_processor_press"
+				count: 1
+			}
+			dependencies: [
+				"4AA33759FFDC587B"
+			]
+			tasks: [
+				{
+					id: "4110E440B81545C2"
+					type: "item"
+					item: {
+						id: "ae2:logic_processor_press"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "475D3C45C8C690DB"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4C8E5DBB9AA00319"
+			x: 4
+			y: 0
+			icon: {
+				id: "ae2:charger"
+				count: 1
+			}
+			dependencies: [
+				"4042D6A0496D1822"
+			]
+			tasks: [
+				{
+					id: "4A63E3810B8D7027"
+					type: "item"
+					item: {
+						id: "ae2:charger"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4A5948561E3524E7"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "462A912E4D6C2E1E"
+			x: 6
+			y: 0
+			icon: {
+				id: "ae2:fluix_crystal"
+				count: 1
+			}
+			dependencies: [
+				"4C8E5DBB9AA00319"
+			]
+			tasks: [
+				{
+					id: "41F95C0D51A3FA0C"
+					type: "item"
+					item: {
+						id: "ae2:fluix_crystal"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4541575A90C5F992"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "46FE072BEF119709"
+			x: 6
+			y: 2
+			icon: {
+				id: "ae2:inscriber"
+				count: 1
+			}
+			dependencies: [
+				"462A912E4D6C2E1E"
+			]
+			tasks: [
+				{
+					id: "43E4622AAB37DF1E"
+					type: "item"
+					item: {
+						id: "ae2:inscriber"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "49E1828F5C86686D"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "47AB58583E039920"
+			x: 4
+			y: 2
+			icon: {
+				id: "ae2:logic_processor"
+				count: 1
+			}
+			dependencies: [
+				"46FE072BEF119709"
+			]
+			tasks: [
+				{
+					id: "4EE00A0B25F140CF"
+					type: "item"
+					item: {
+						id: "ae2:logic_processor"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "46E6284D4234EDE7"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4E523A990F12A6E2"
+			x: 2
+			y: 2
+			icon: {
+				id: "ae2:energy_acceptor"
+				count: 1
+			}
+			dependencies: [
+				"47AB58583E039920"
+			]
+			tasks: [
+				{
+					id: "4114E5501313E9C1"
+					type: "item"
+					item: {
+						id: "ae2:energy_acceptor"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4B84DCF40775A5BD"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4B58073B5C47EC8C"
+			x: 0
+			y: 2
+			icon: {
+				id: "ae2:drive"
+				count: 1
+			}
+			dependencies: [
+				"4E523A990F12A6E2"
+			]
+			tasks: [
+				{
+					id: "4568C219332ABE35"
+					type: "item"
+					item: {
+						id: "ae2:drive"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "44447913EC4F75ED"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "420B30A57D8A0758"
+			x: 0
+			y: 4
+			icon: {
+				id: "ae2:item_storage_cell_1k"
+				count: 1
+			}
+			dependencies: [
+				"4B58073B5C47EC8C"
+			]
+			tasks: [
+				{
+					id: "4EDC71076A68AAB3"
+					type: "item"
+					item: {
+						id: "ae2:item_storage_cell_1k"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4952B2450D0ECF65"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4AEBA8861F25747D"
+			x: 2
+			y: 4
+			icon: {
+				id: "ae2:crafting_terminal"
+				count: 1
+			}
+			dependencies: [
+				"420B30A57D8A0758"
+			]
+			tasks: [
+				{
+					id: "4F5009E7921894B0"
+					type: "item"
+					item: {
+						id: "ae2:crafting_terminal"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "44C86A7307D3E4D7"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "406D3E64504B4428"
+			x: 4
+			y: 4
+			icon: {
+				id: "ae2:pattern_encoding_terminal"
+				count: 1
+			}
+			dependencies: [
+				"4AEBA8861F25747D"
+			]
+			tasks: [
+				{
+					id: "4FFEBD2C3C4792F8"
+					type: "item"
+					item: {
+						id: "ae2:pattern_encoding_terminal"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4DC7500F59A5770E"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4740BC004BFCC955"
+			x: 6
+			y: 4
+			icon: {
+				id: "ae2:molecular_assembler"
+				count: 1
+			}
+			dependencies: [
+				"406D3E64504B4428"
+			]
+			tasks: [
+				{
+					id: "4CF233547DA46746"
+					type: "item"
+					item: {
+						id: "ae2:molecular_assembler"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "469E9D53C8123BA6"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4AB28AE1E7B4F58B"
+			x: 6
+			y: 6
+			icon: {
+				id: "ae2:1k_crafting_storage"
+				count: 1
+			}
+			dependencies: [
+				"4740BC004BFCC955"
+			]
+			tasks: [
+				{
+					id: "44279229079E76D7"
+					type: "item"
+					item: {
+						id: "ae2:1k_crafting_storage"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "449873C74181678F"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "43346896ACC6F316"
+			x: 4
+			y: 6
+			icon: {
+				id: "ae2:crafting_terminal"
+				count: 1
+			}
+			dependencies: [
+				"4AB28AE1E7B4F58B"
+			]
+			tasks: [
+				{
+					id: "4F85B7350C5CF3F8"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+	]
+}

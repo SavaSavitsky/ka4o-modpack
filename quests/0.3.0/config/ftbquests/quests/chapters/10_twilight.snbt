@@ -1,0 +1,339 @@
+{
+	id: "4A33FBE3A2C7A961"
+	group: "4D4A3B2D68D21D80"
+	order_index: 9
+	filename: "10_twilight"
+	icon: {
+		id: "twilightforest:magic_map"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "411CE11C961AA10B"
+			x: 0
+			y: 0
+			icon: {
+				id: "minecraft:diamond"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "43D648732CFE3001"
+					type: "item"
+					item: {
+						id: "minecraft:diamond"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4C5381360BCCD655"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4539334F6DB443D7"
+			x: 2
+			y: 0
+			icon: {
+				id: "twilightforest:magic_map"
+				count: 1
+			}
+			dependencies: [
+				"411CE11C961AA10B"
+			]
+			tasks: [
+				{
+					id: "4092647447C9F3E4"
+					type: "dimension"
+					dimension: "twilightforest:twilight_forest"
+				}
+			]
+			rewards: [
+				{
+					id: "41534535AB7E4B28"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "433A7B86AE59B9E3"
+			x: 4
+			y: 0
+			icon: {
+				id: "twilightforest:magic_map"
+				count: 1
+			}
+			dependencies: [
+				"4539334F6DB443D7"
+			]
+			tasks: [
+				{
+					id: "4FE2D3DE6CC38F7E"
+					type: "item"
+					item: {
+						id: "twilightforest:magic_map"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4B4C26CECBBEE64A"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4BBD8FB8231C3C54"
+			x: 6
+			y: 0
+			icon: {
+				id: "twilightforest:naga_scale"
+				count: 1
+			}
+			dependencies: [
+				"433A7B86AE59B9E3"
+			]
+			tasks: [
+				{
+					id: "4CB377BC4E56FE20"
+					type: "kill"
+					entity: "twilightforest:naga"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4702EB627CFC6B6D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "49FB274872C56E97"
+			x: 6
+			y: 2
+			icon: {
+				id: "twilightforest:lich_trophy"
+				count: 1
+			}
+			dependencies: [
+				"4BBD8FB8231C3C54"
+			]
+			tasks: [
+				{
+					id: "45F9F71205CCC006"
+					type: "kill"
+					entity: "twilightforest:lich"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "436CA24612BE8119"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "4404F5C153BF5803"
+			x: 4
+			y: 2
+			icon: {
+				id: "twilightforest:minoshroom_trophy"
+				count: 1
+			}
+			dependencies: [
+				"49FB274872C56E97"
+			]
+			tasks: [
+				{
+					id: "4517A54EDC67EB10"
+					type: "kill"
+					entity: "twilightforest:minoshroom"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4EDA2317762522BE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "44490E9FF1A4EBA0"
+			x: 2
+			y: 2
+			icon: {
+				id: "twilightforest:hydra_trophy"
+				count: 1
+			}
+			dependencies: [
+				"4404F5C153BF5803"
+			]
+			tasks: [
+				{
+					id: "4B3FE4BC76F6F613"
+					type: "kill"
+					entity: "twilightforest:hydra"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4C7514E416C572D5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "46E36E383E35A28B"
+			x: 0
+			y: 2
+			icon: {
+				id: "twilightforest:knight_phantom_trophy"
+				count: 1
+			}
+			dependencies: [
+				"49FB274872C56E97"
+			]
+			tasks: [
+				{
+					id: "4F5858D5C1535C44"
+					type: "kill"
+					entity: "twilightforest:knight_phantom"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4CC6F5B36F3ABF7A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "492283F26DD1D032"
+			x: 0
+			y: 4
+			icon: {
+				id: "twilightforest:ur_ghast_trophy"
+				count: 1
+			}
+			dependencies: [
+				"46E36E383E35A28B"
+			]
+			tasks: [
+				{
+					id: "4CCEF75ED0184B39"
+					type: "kill"
+					entity: "twilightforest:ur_ghast"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4B16849DA0DDFEC7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "4F2DD11BB38BD2CC"
+			x: 2
+			y: 4
+			icon: {
+				id: "twilightforest:alpha_yeti_trophy"
+				count: 1
+			}
+			dependencies: [
+				"49FB274872C56E97"
+			]
+			tasks: [
+				{
+					id: "4C397A621672D56A"
+					type: "kill"
+					entity: "twilightforest:alpha_yeti"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4E837960A45562F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "45A8ECA9BA6157D3"
+			x: 4
+			y: 4
+			icon: {
+				id: "twilightforest:snow_queen_trophy"
+				count: 1
+			}
+			dependencies: [
+				"4F2DD11BB38BD2CC"
+			]
+			tasks: [
+				{
+					id: "4FFD28C9029743CC"
+					type: "kill"
+					entity: "twilightforest:snow_queen"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "49B20A3855E38449"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			id: "45F0F1B33F995C6F"
+			x: 6
+			y: 4
+			icon: {
+				id: "twilightforest:magic_map"
+				count: 1
+			}
+			dependencies: [
+				"44490E9FF1A4EBA0"
+				"492283F26DD1D032"
+				"45A8ECA9BA6157D3"
+			]
+			tasks: [
+				{
+					id: "4BDA029004B54163"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+	]
+}

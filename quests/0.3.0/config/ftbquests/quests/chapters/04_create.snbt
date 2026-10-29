@@ -1,0 +1,479 @@
+{
+	id: "42C11F708AF881E2"
+	group: "45E9682208381DA9"
+	order_index: 3
+	filename: "04_create"
+	icon: {
+		id: "create:cogwheel"
+		count: 1
+	}
+	default_quest_shape: "circle"
+	consume_items: false
+	quests: [
+		{
+			id: "47A0E81EE6B383F3"
+			x: 0
+			y: 0
+			icon: {
+				id: "create:andesite_alloy"
+				count: 1
+			}
+			dependencies: []
+			tasks: [
+				{
+					id: "4403344F8C7D324F"
+					type: "item"
+					item: {
+						id: "create:andesite_alloy"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4EE6953A73AE7066"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "462B8F863FE36964"
+			x: 2
+			y: 0
+			icon: {
+				id: "create:shaft"
+				count: 1
+			}
+			dependencies: [
+				"47A0E81EE6B383F3"
+			]
+			tasks: [
+				{
+					id: "437C765CF8DE390A"
+					type: "item"
+					item: {
+						id: "create:shaft"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "45FA50A024D9FBAA"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4C5B431DAB2AACE7"
+			x: 4
+			y: 0
+			icon: {
+				id: "create:goggles"
+				count: 1
+			}
+			dependencies: [
+				"462B8F863FE36964"
+			]
+			tasks: [
+				{
+					id: "4404C5F14424792D"
+					type: "item"
+					item: {
+						id: "create:goggles"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4CAA7FDB88F746F4"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "44A4A1436744C27A"
+			x: 6
+			y: 0
+			icon: {
+				id: "create:water_wheel"
+				count: 1
+			}
+			dependencies: [
+				"4C5B431DAB2AACE7"
+			]
+			tasks: [
+				{
+					id: "4C782D8D2BE79EC0"
+					type: "item"
+					item: {
+						id: "create:water_wheel"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "46F99ABE59EAFAC1"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "49D14B682EB7B700"
+			x: 6
+			y: 2
+			icon: {
+				id: "create:cogwheel"
+				count: 1
+			}
+			dependencies: [
+				"44A4A1436744C27A"
+			]
+			tasks: [
+				{
+					id: "4EC948DF58047F64"
+					type: "item"
+					item: {
+						id: "create:cogwheel"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4D5A3FC5904AAFE5"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4AE749278DB779D8"
+			x: 4
+			y: 2
+			icon: {
+				id: "create:mechanical_press"
+				count: 1
+			}
+			dependencies: [
+				"49D14B682EB7B700"
+			]
+			tasks: [
+				{
+					id: "4F4087378F788D8D"
+					type: "item"
+					item: {
+						id: "create:mechanical_press"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "444961A3F4FA1DE2"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4074D6E78FA068FF"
+			x: 2
+			y: 2
+			icon: {
+				id: "create:iron_sheet"
+				count: 1
+			}
+			dependencies: [
+				"4AE749278DB779D8"
+			]
+			tasks: [
+				{
+					id: "40DF56E713857099"
+					type: "item"
+					item: {
+						id: "create:iron_sheet"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "485D2E4A7C2B6A2A"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4741C8E7D0BB0122"
+			x: 0
+			y: 2
+			icon: {
+				id: "create:encased_fan"
+				count: 1
+			}
+			dependencies: [
+				"4074D6E78FA068FF"
+			]
+			tasks: [
+				{
+					id: "4DBB322854106E28"
+					type: "item"
+					item: {
+						id: "create:encased_fan"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4B2D263D85F17A33"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4AF14252DCAAC08F"
+			x: 0
+			y: 4
+			icon: {
+				id: "create:mechanical_mixer"
+				count: 1
+			}
+			dependencies: [
+				"4741C8E7D0BB0122"
+			]
+			tasks: [
+				{
+					id: "45956EF19E2F7180"
+					type: "item"
+					item: {
+						id: "create:mechanical_mixer"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4649815A1B6C71FB"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4905CFC1FB727510"
+			x: 2
+			y: 4
+			icon: {
+				id: "create:brass_ingot"
+				count: 1
+			}
+			dependencies: [
+				"4AF14252DCAAC08F"
+			]
+			tasks: [
+				{
+					id: "410C6ABB946C544A"
+					type: "item"
+					item: {
+						id: "create:brass_ingot"
+						count: 1
+					}
+					count: 8
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "47B13BF47E388B49"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "479E292E08EE0E87"
+			x: 4
+			y: 4
+			icon: {
+				id: "create:deployer"
+				count: 1
+			}
+			dependencies: [
+				"4905CFC1FB727510"
+			]
+			tasks: [
+				{
+					id: "4934DF0D612474BF"
+					type: "item"
+					item: {
+						id: "create:deployer"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "43024FFA5E1ED37D"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "46C424B991DFA751"
+			x: 6
+			y: 4
+			icon: {
+				id: "create:precision_mechanism"
+				count: 1
+			}
+			dependencies: [
+				"479E292E08EE0E87"
+			]
+			tasks: [
+				{
+					id: "47A1301DE4C08A81"
+					type: "item"
+					item: {
+						id: "create:precision_mechanism"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "497968C4CAC92F7E"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4EE05DD257313155"
+			x: 6
+			y: 6
+			icon: {
+				id: "create:mechanical_crafter"
+				count: 1
+			}
+			dependencies: [
+				"46C424B991DFA751"
+			]
+			tasks: [
+				{
+					id: "4C6069730A9CF4E0"
+					type: "item"
+					item: {
+						id: "create:mechanical_crafter"
+						count: 1
+					}
+					count: 1
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "4786BB84151C8EB9"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "49D7C15B1AC1613B"
+			x: 4
+			y: 6
+			icon: {
+				id: "create:track"
+				count: 1
+			}
+			dependencies: [
+				"4EE05DD257313155"
+			]
+			tasks: [
+				{
+					id: "41507A90AE1C7A97"
+					type: "item"
+					item: {
+						id: "create:track"
+						count: 1
+					}
+					count: 16
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "445E7EA7FC5B5F04"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			id: "4248A1F6805FDD1D"
+			x: 2
+			y: 6
+			icon: {
+				id: "create:precision_mechanism"
+				count: 1
+			}
+			dependencies: [
+				"49D7C15B1AC1613B"
+			]
+			tasks: [
+				{
+					id: "44B41C83C7758F65"
+					type: "checkmark"
+				}
+			]
+			rewards: []
+		}
+	]
+}
