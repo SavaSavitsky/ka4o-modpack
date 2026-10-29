@@ -1,0 +1,441 @@
+{
+  "formatVersion": 1,
+  "id": "ka4o-adventures",
+  "name": "Ka4o Adventures — тестова збірка",
+  "version": "0.2.0",
+  "minecraft": "1.21.1",
+  "loader": {
+    "type": "neoforge",
+    "version": "21.1.265"
+  },
+  "mods": [
+    {
+      "id": "ae2",
+      "name": "Applied Energistics 2",
+      "version": "19.2.18",
+      "fileName": "appliedenergistics2-19.2.18.jar",
+      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/KDnFUmMm/appliedenergistics2-19.2.18.jar",
+      "sha1": "bcd04bc7f181b2ffa314625f284c8eca6fee7fe4",
+      "sha512": "39bc4cf733a4321631e2637a1a6dfd3527135fdac1b572534e6fd1f9eab7a6dd92d56c5fa066263c95149c9b20cabdd1fd3dff80bea515381b1d2d754cad26c3",
+      "size": 8236552,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "guideme"
+      ],
+      "license": "LicenseRef-Multiple",
+      "source": "https://modrinth.com/mod/ae2"
+    },
+    {
+      "id": "ars-nouveau",
+      "name": "Ars Nouveau",
+      "version": "5.13.3",
+      "fileName": "ars_nouveau-1.21.1-5.13.3.jar",
+      "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/yWDnir1o/ars_nouveau-1.21.1-5.13.3.jar",
+      "sha1": "541b3286d187deeb9a1297a509d0d3539d8af0f6",
+      "sha512": "30f188cfc932bd58c95740488732df7e92d98e7345e271b1a223e41a43fc3dd52284d0ff07fc3e8a95e914082f899394eff3a0f37c174d317e6e37fb68b083df",
+      "size": 19841105,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "curios",
+        "geckolib"
+      ],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/ars-nouveau"
+    },
+    {
+      "id": "balm",
+      "name": "Balm",
+      "version": "21.0.66+neoforge-1.21.1",
+      "fileName": "balm-neoforge-1.21.1-21.0.66.jar",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/CquiaiDj/balm-neoforge-1.21.1-21.0.66.jar",
+      "sha1": "dd3606a349f4a3c8fb5bd0ab22905675c02b0d74",
+      "sha512": "0262d51c0e931d10c3dccefb3b5426a1622edecab243d4b15dce07a23309641370184776739765067d292d808242d088c6fbf249762689824eff9ba42c2d1e63",
+      "size": 783793,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/balm"
+    },
+    {
+      "id": "create",
+      "name": "Create",
+      "version": "6.0.10+mc1.21.1",
+      "fileName": "create-1.21.1-6.0.10.jar",
+      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+      "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+      "sha512": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b",
+      "size": 19123767,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LicenseRef-Create-Mod-License",
+      "source": "https://modrinth.com/mod/create"
+    },
+    {
+      "id": "curios",
+      "name": "Curios API",
+      "version": "9.5.1+1.21.1",
+      "fileName": "curios-neoforge-9.5.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
+      "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+      "sha512": "5981a267686b744e7e3c227f78cbcd5267c14ac6979a28e814695f4589273998563147207fef4a5cdb7cdbdc39797cd95d9e4abadb55869f18e02a38d0654ae5",
+      "size": 410690,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LGPL-3.0-or-later",
+      "source": "https://modrinth.com/mod/curios"
+    },
+    {
+      "id": "farmers-delight",
+      "name": "Farmer's Delight",
+      "version": "1.21.1-1.3.4",
+      "fileName": "FarmersDelight-1.21.1-1.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/XTVZDOol/FarmersDelight-1.21.1-1.3.4.jar",
+      "sha1": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657",
+      "sha512": "1f6f8796469f747cff36f477b4f589a3d69613882399f9ee7f86db36c7bca9aa4828731f43db15dc6c7f5a4c1bbe3d4092a232e8cef010b09cec0581848fda90",
+      "size": 3160490,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/farmers-delight"
+    },
+    {
+      "id": "geckolib",
+      "name": "Geckolib",
+      "version": "4.9.3",
+      "fileName": "geckolib-neoforge-1.21.1-4.9.3.jar",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/Grwn5rUB/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "sha1": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac",
+      "sha512": "8dfa5f8c57224a5e34e5098367ea9819ca6dc9c11357cd3062c16da3455c8bd1a483098af7383debc4b9ce8e4d7ab3fdc799b415644eb829da83eb72a7335dfd",
+      "size": 634531,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/geckolib"
+    },
+    {
+      "id": "guideme",
+      "name": "GuideME",
+      "version": "21.1.21",
+      "fileName": "guideme-21.1.21.jar",
+      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/JBFCgJmg/guideme-21.1.21.jar",
+      "sha1": "36007b739ad2206f5ec2d63e5c8bd6f7e0a43161",
+      "sha512": "ec34f1ac05518ef05399a9a516837f96546e19a75b2b6150d17e01eba7e83b7ce1ac2aac8a2066c0be6e24ecab5b25b16a48939736be700cad8b383388d8b720",
+      "size": 9329830,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LicenseRef-Multiple-OSS-Licenses",
+      "source": "https://modrinth.com/mod/guideme"
+    },
+    {
+      "id": "irons-lib",
+      "name": "Iron's Lib",
+      "version": "1.21.1-2.3.0",
+      "fileName": "irons_lib-1.21.1-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/dgH7P81J/irons_lib-1.21.1-2.3.0.jar",
+      "sha1": "539b49b1a3988d4084a80470f0cfa404258bf0d0",
+      "sha512": "74c609a583af1547c36ad39a7f89074a221f106fad5a246810d4921f91d0fc2df5660ef75f47f33e5f546cc51147d78ecbcff883da4a53f24002311697d0a99b",
+      "size": 481888,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/irons-lib"
+    },
+    {
+      "id": "irons-spells-n-spellbooks",
+      "name": "Iron's Spells 'n Spellbooks",
+      "version": "1.21.1-3.16.3",
+      "fileName": "irons_spellbooks-1.21.1-3.16.3.jar",
+      "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/slKLosTb/irons_spellbooks-1.21.1-3.16.3.jar",
+      "sha1": "e8832385c01db56b9fcb19c48fcedc76a3a70d92",
+      "sha512": "fd782f98c6c59b193c4832f33775291d2a7e639e1e23dd47510bfb494d99d182bec1253566b9394f96c733a0d0108be34bd729614b82dc29e55e096fdeb96f5b",
+      "size": 13890045,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "curios",
+        "geckolib",
+        "playeranimator",
+        "irons-lib"
+      ],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/irons-spells-n-spellbooks"
+    },
+    {
+      "id": "jade",
+      "name": "Jade 🔍",
+      "version": "15.10.6+neoforge",
+      "fileName": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "sha1": "88ee316e68900080b017f60c12162e2731924cf8",
+      "sha512": "dad9755dce8d85d914fc4df2baa0211f13e5839a71c1925fdd01f69081a95e30a2934e6273f8b01f0169adebe7a9dae57a8d904de0c4cb36dc17369bb474f0f2",
+      "size": 726853,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "https://modrinth.com/mod/jade"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items (JEI)",
+      "version": "19.64.0.455",
+      "fileName": "jei-1.21.1-neoforge-19.64.0.455.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/iv3KiVkE/jei-1.21.1-neoforge-19.64.0.455.jar",
+      "sha1": "f6d6fc08d54c40752926b570a2220471e8c45c1a",
+      "sha512": "fdd02e57ce4dcf20b69860a5ace1b97d9a771486241179cf9edfe71e30c69bb4003b046d0cce8d8c4913b9689f1d8b04cf0542b0b04a6cf0b3b0465f3bb11702",
+      "size": 2375741,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "mezzconfig"
+      ],
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/jei"
+    },
+    {
+      "id": "l_enders-cataclysm",
+      "name": "L_Ender's Cataclysm",
+      "version": "3.33",
+      "fileName": "L_Ender_s Cataclysm 1.21.1-3.33.jar",
+      "url": "https://cdn.modrinth.com/data/46KJle7n/versions/PsPYpoCC/L_Ender%27s%20Cataclysm%201.21.1-3.33.jar",
+      "sha1": "f0310277167c82fd16a5c2bab220b5c5c262f133",
+      "sha512": "289f6e8364a6e432f34803a47cff8381899a1df0fdc675170323b43fd1c09579b1320d8b4e0de5df65c609b738d450c13c89e240d6d79f607888da26b7724947",
+      "size": 73375667,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "lionfish-api",
+        "curios"
+      ],
+      "license": "CC-BY-NC-ND-4.0",
+      "source": "https://modrinth.com/mod/l_enders-cataclysm"
+    },
+    {
+      "id": "lionfish-api",
+      "name": "Lionfish-API",
+      "version": "3.1",
+      "fileName": "lionfishapi-3.1.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/fTRMVgyZ/lionfishapi-3.1.jar",
+      "sha1": "353ca00ed118eb67cf11085abbbd699884722326",
+      "sha512": "fdd90f19d0424c3a837111291d6ac1547d62cbcedd43b74d3a8946912f9c5212a5ea239a6969eccf678289bcb77cbb9a937db01fdaf60e57826f9a99893d19cb",
+      "size": 91596,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/lionfish-api"
+    },
+    {
+      "id": "lootr",
+      "name": "Lootr",
+      "version": "1.21.1-1.11.38.127",
+      "fileName": "lootr-neoforge-1.21.1-1.11.38.127.jar",
+      "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/SPOrIzX8/lootr-neoforge-1.21.1-1.11.38.127.jar",
+      "sha1": "7a305b581abd90e1a8b7c1bb5eb4511d2653aa58",
+      "sha512": "7496051c1ba98f8801b8eb81773d1baec16166c3d2c5682476bd6f9433f794095099cea609fd5610525edb7c450b1bacd0011a31763e91c77c9a0034c8245ca3",
+      "size": 1075929,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/lootr"
+    },
+    {
+      "id": "mezzconfig",
+      "name": "MezzConfig",
+      "version": "0.6.9",
+      "fileName": "mezz_config-1.21.1-neoforge-0.6.9-standalone.jar",
+      "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/RdGonQpr/mezz_config-1.21.1-neoforge-0.6.9-standalone.jar",
+      "sha1": "a20ecb9978bd8eebd40f4548d14b0a360a63f8a4",
+      "sha512": "2a20fdcca268c0f80547806582c94d79de6d339aabd3714af4bc5cf25ce983028f72ae707d52b44786adeb4e4c1976bebd7dbc4a75a3bf4575ec44c2bcd28dc3",
+      "size": 345479,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/mezzconfig"
+    },
+    {
+      "id": "playeranimator",
+      "name": "playerAnimator",
+      "version": "2.0.4+1.21.1-forge",
+      "fileName": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/HJZB6bmA/player-animation-lib-forge-2.0.4%2B1.21.1.jar",
+      "sha1": "05be8ddcc78532b9a5520c718edc6c971cd0057c",
+      "sha512": "fc00450fb6c95ec1779021bdc726122dacb5915c6baddaacc981cd221b01b8db35f2a0dfde5d6fa6766d877266dc82f58854f571ea53cc5c4d468b80e1548a5f",
+      "size": 203149,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/playeranimator"
+    },
+    {
+      "id": "sophisticated-backpacks",
+      "name": "Sophisticated Backpacks",
+      "version": "1.21.1-3.26.17.2232",
+      "fileName": "sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+      "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/7V3OGECb/sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+      "sha1": "8e7edebc4182974d4371499953a6f41f6b45a7b1",
+      "sha512": "f01ef419bfdd6744acb4a7536751535bd0aa6ea4b2807468cad1c63e59878c8875324375247c84c3baae21f34d7599860a1db05238a89ad20aa6d6c5a7cb528a",
+      "size": 1256228,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "sophisticated-core"
+      ],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/sophisticated-backpacks"
+    },
+    {
+      "id": "sophisticated-core",
+      "name": "Sophisticated Core",
+      "version": "1.21.1-1.5.19.2434",
+      "fileName": "sophisticatedcore-1.21.1-1.5.19.2434.jar",
+      "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/p1iOw2RH/sophisticatedcore-1.21.1-1.5.19.2434.jar",
+      "sha1": "f0d0fc6d3d8738a4c7a2ff79eaf59bac894d3fd1",
+      "sha512": "a8ef09646497a372e7e00d12366465d2d18809ff4d8c1358e40303c8567bc9e7100d76940908c563095167777c5cb5bbed50cc3bbb371573fcab40490cf01321",
+      "size": 1820184,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/sophisticated-core"
+    },
+    {
+      "id": "toms-storage",
+      "name": "Tom's Simple Storage Mod",
+      "version": "1.21-2.4.2",
+      "fileName": "toms_storage-1.21-2.4.2.jar",
+      "url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/WQAMoIMC/toms_storage-1.21-2.4.2.jar",
+      "sha1": "592af3bc4768c804c4929af16961ca2a1a916942",
+      "sha512": "53db61b4486616b3a78dfff83b58f9424dd9bf525ea3db4e444ff0403fb70aa9ab7fc097dff2f49665e480bce936b32be76b3051a5aff217898b2b94d846d30b",
+      "size": 856803,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/toms-storage"
+    },
+    {
+      "id": "waystones",
+      "name": "Waystones",
+      "version": "21.1.46+neoforge-1.21.1",
+      "fileName": "waystones-neoforge-1.21.1-21.1.46.jar",
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/6Z6MQ6os/waystones-neoforge-1.21.1-21.1.46.jar",
+      "sha1": "75718161662d9ec957ba22e10e497788ec1687ba",
+      "sha512": "ca90b58d884d4bc2b08a870484ae7ede397e71d31eaaf01ff2603ad498d584763e099c2094e57031522385339705d2c011ed4910bf36efae688e64935b49ece9",
+      "size": 1223229,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [
+        "balm"
+      ],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/waystones"
+    },
+    {
+      "id": "when-dungeons-arise",
+      "name": "When Dungeons Arise",
+      "version": "2.1.68",
+      "fileName": "DungeonsArise-1.21.1-2.1.68-release.jar",
+      "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/XIRJSFQ0/DungeonsArise-1.21.1-2.1.68-release.jar",
+      "sha1": "c651339154da7b9e9cf47a80fdef22c4d59cad5c",
+      "sha512": "cf87e06c8a49c9147fac2cf4d218d0e0eb56bb75819ab85f84ed7ae775bb3e259e2ebd5c423696d4d9026f6a69698babf5e7c82c74e480fbbf107359ef30a97e",
+      "size": 11842679,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/when-dungeons-arise"
+    },
+    {
+      "id": "xaeros-minimap",
+      "name": "Xaero's Minimap",
+      "version": "neoforge-1.21.1-26.6.0",
+      "fileName": "xaerominimap-neoforge-1.21.1-26.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/irjR7dHk/xaerominimap-neoforge-1.21.1-26.6.0.jar",
+      "sha1": "551e8e2aa3498b506cc949a74606cdc0380e5e00",
+      "sha512": "d56b93ddb921285624b491d6a85aba23748bec9974867399c881c257eb25a746df92a735473adf3a6875e0928a56ff78245d5238eb9207b0e45c3fec20c896dc",
+      "size": 2186351,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/xaeros-minimap"
+    },
+    {
+      "id": "xaeros-world-map",
+      "name": "Xaero's World Map",
+      "version": "neoforge-1.21.1-1.47.0",
+      "fileName": "xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/SnQ4SoDe/xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+      "sha1": "2936c9cb9dfbdab145fe6f1e8ae2c68915246a5f",
+      "sha512": "4d2d78bc85afa002f682ef344b7284cf1baa4903cc5a11cd1d7bd260ac63952580ae717bab47079540ead633cdd5d8e4fdf230dc99a68bcb7a269500e7dada13",
+      "size": 1427078,
+      "minecraft": "1.21.1",
+      "loaders": [
+        "neoforge"
+      ],
+      "dependencies": [],
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/xaeros-world-map"
+    }
+  ],
+  "files": []
+}
