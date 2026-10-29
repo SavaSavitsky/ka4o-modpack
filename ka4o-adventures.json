@@ -2,7 +2,8 @@
   "formatVersion": 1,
   "id": "ka4o-adventures",
   "name": "Ka4o Adventures — тестова збірка",
-  "version": "0.2.0",
+  "version": "0.2.1",
+  "server": "stamina-cassettes.tun.ply.gg",
   "minecraft": "1.21.1",
   "loader": {
     "type": "neoforge",
